@@ -118,6 +118,13 @@ python run.py
         - Key: `Authorization`
         - Value: `Bearer YOUR_JWT_TOKEN`
       - Body: JSON (e.g., `{"title": "Go To The Gym", "description": "Train for 1 hour."}`)
+        
+    - **Delete A Todo:** 
+      - Method: DELETE
+      - URL: `http://localhost:5000/api/v1/todos/<int:todo_id>`
+      - Headers: 
+        - Key: `Authorization`
+        - Value: `Bearer YOUR_JWT_TOKEN`
 
 3. **Logging Out:** 
     - Method: POST
