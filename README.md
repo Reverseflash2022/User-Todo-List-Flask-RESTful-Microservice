@@ -36,8 +36,8 @@ This repository contains a production-ready, robust, and comprehensive RESTful m
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-github-username/todo-microservice.git
-    cd todo-microservice
+    git clone https://github.com/Reverseflash2022/User-Todo-List-Flask-RESTful-Microservice.git
+    cd User-Todo-List-Flask-RESTful-Microservice
     ```
 
 2. **Setup Virtual Environment:**
