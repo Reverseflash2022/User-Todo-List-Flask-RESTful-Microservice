@@ -111,7 +111,13 @@ python run.py
         - Key: `Authorization`
         - Value: `Bearer YOUR_JWT_TOKEN`
 
-    - Add more requests as per the available API endpoints.
+    - **Update A Todo:** 
+      - Method: PUT
+      - URL: `http://localhost:5000/api/v1/todos/<int:todo_id>`
+      - Headers: 
+        - Key: `Authorization`
+        - Value: `Bearer YOUR_JWT_TOKEN`
+      - Body: JSON (e.g., `{"title": "Go To The Gym", "description": "Train for 1 hour."}`)
 
 3. **Logging Out:** 
     - Method: POST
